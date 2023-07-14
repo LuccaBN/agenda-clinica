@@ -8,4 +8,5 @@ public record DadosDetalhesPaciente(Long id, String name, String cpf) {
 
         this(paciente.getId(), paciente.getName(), paciente.getCpf());
     }
+
 }
